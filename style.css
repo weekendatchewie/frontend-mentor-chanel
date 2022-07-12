@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,800;9..144,900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.bloc-img {
+    min-width: 50%;
+    contain: content;
+}
+
+.bloc-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 50%;
+    padding: 25px 40px;
+}
+
+.content p:first-child {
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+    font-weight: 500;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: 'Fraunces', sans-serif;
+    line-height: 35px;
+    color: hsl(212, 21%, 14%);
+}
+
+.bloc-price {
+    margin: 25px 0;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.bloc-price span {
+    font-family: 'Fraunces', sans-serif;
+}
+
+.bloc-price span:first-child {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+.bloc-price span:last-child {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+button img{
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 20%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+footer {
+    position: absolute;
+
+    bottom: 0;
+
+    width: 100%;
+
+    padding-top: 50px;
+
+    height: 50px;
+}
+
